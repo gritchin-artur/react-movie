@@ -26,9 +26,6 @@ export const MovieCard = ({ movie, className }) => {
         <h3 className={`${className}-rating`}>
           Rating score: {movie.vote_average}
         </h3>
-        <h3 className={`${className}-release_date`}>
-          Release Date: {movie.release_date}
-        </h3>
       </div>
       <p className={`${className}-description`}>
         Description: {movie.overview}
